@@ -1,0 +1,95 @@
+:root {
+    --dark-gray: rgb(89, 89, 89);
+    --light-gray: #9a9a9a;
+
+    --databricks-red: #FF3620;
+    --databricks-dark-red: #BD2E2B;
+    --databricks-bluegreen: #022F3C;
+
+    --microsoft-blue: #0064B5;
+    --microsoft-dark-blue: #001B4F;
+
+
+    --certifications-font: 1vw Arial, sans-serif;
+    --trainings-font: 1vw Arial, sans-serif;
+    --education-font: 1vw Arial, sans-serif;
+}
+
+h4 {
+    display: inline;
+}
+
+#page-root {
+    display: flex;
+    justify-content: center;
+}
+
+#top-container {
+    display: flex;
+    max-width: 80vw;
+}
+
+#left-part {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    align-items: center;
+    background-color: var(--dark-gray);
+    padding: 10px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#right-part {
+    display: flex;
+    flex-direction: column;
+    flex: 7;
+    align-items: flex-start;
+    background-color: var(--light-gray);
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+#photo {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#top-skills-entries {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    column-gap: 10px;
+}
+
+#certification-entries, #training-entries, #education-entries {
+    display: flex;
+    flex-direction: column;
+    font: var(--certifications-font)
+}
+
+.certification-entry, .training-entry, .education-entry {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.badge-container {
+    flex: 1;
+}
+
+.cert-badge, .train-badge, .education-logo {
+    width: 100%;
+}
+
+.certification-link-container, .training-link-container, .education-info {
+    flex: 6;
+}
+
+.certification-link-container > a, .training-link-container > a, .education-info {
+    text-decoration: none;
+    color: white;
+}
+
+.certification-link-container > a:visited, .training-link-container > a:visited, .certification-link-container > a:active, .training-link-container > a:active {
+    text-decoration: none;
+}

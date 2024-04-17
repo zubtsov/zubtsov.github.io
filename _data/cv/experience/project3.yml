@@ -1,0 +1,81 @@
+title: Software Engineer / Senior Software Engineer
+company: EPAM Systems
+company_web_site: "https://www.epam.com"
+location: Minsk, Belarus
+employment_type: Full-time
+start_date: May 2018
+end_date: October 2021
+duration: 3 years 6 months
+primary_role: Data Engineer
+secondary_roles:
+  - Data Analyst
+  - Data Quality Engineer
+  - Data Modeler
+domain: oil and gas industry
+
+description: |
+  Data and analytics platform (Data Lake).
+
+responsibilities:
+  - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
+  - requirements gathering and clarification
+  - extending and improvement of platform capabilities
+  - pipelines and data quality monitoring and automation
+  - performance optimization
+  - data modeling
+  - conducting code reviews and workshops on best practices
+  - tasks decomposition and delegation
+  - infrastructure management (occasionally)
+
+participation_highlights_and_achievements:
+  - Developed and generated numerous complex ETL jobs using Apache Velocity templates and a custom Maven plugin. This included ingestion of various data formats (Parquet, CSV, Avro, Excel spreadsheets using POI + Spark Datasource API, LAS text files, XML/WITSML files, HBase tables) and SFTP; SMB file downloading using Python.
+  - Extended and improved platform capabilities, including basic schema evolution and snapshot/delta merge.
+  - Implemented on-premise email notifications with attachments.
+  - Developed Proof of Concept (POC) dashboards using Excel and Power Pivot.
+  - Productionalized and enhanced a drilling performance optimization algorithm (transitioned from Python + Pandas to Scala + Spark).
+  - Collaborated with the customer to gather requirements, reverse-engineered complex financial calculations from Excel spreadsheets, and implemented them as automated ETL pipelines.
+  - Suggested, executed, and automated data quality estimations, metrics, and checks, utilizing Apache JMeter where applicable.
+  - Authored a test framework/library and automated tests for data visualization Spotfire dashboards in Python + Selenium.
+  - Migrated existing ETL jobs from SQL to Scala and assisted in the transition from on-premise Cloudera to Microsoft Azure Cloud.
+  - Optimized the performance of ETL jobs, including the development of a custom writer using a bulk SQL server driver and RDD (20x performance boost in comparison with JDBC).
+  - Developed Ansible playbooks for CI/CD pipelines and infrastructure deployment.
+
+technical_details:
+  languages:
+    - Scala
+    - SQL
+    - Python
+    - Java
+    - Power Query/M Language (Microsoft Excel)
+    - DAX (Microsoft Excel)
+    - Visual Basic (Microsoft Excel)
+
+  development_tools:
+    - IntelliJ Idea IDE
+    - Microsoft Excel
+
+  tools_technologies:
+    - Azure Databricks
+    - Azure Data Factory
+    - Azure Data Lake Storage
+    - Azure Synapse
+    - Azure SQL Database
+    - JMeter
+    - Selenium
+    - Apache Oozie
+    - Apache Sqoop
+    - Azure Logic App
+
+  frameworks_libraries:
+    - ScalaTest
+    - Apache POI
+
+  ci_cd_vcs_issue_trackers:
+    - Azure DevOps
+    - Git
+    - Apache Maven
+    - Jenkins
+    - Nexus
+    - Artifactory (JFrog)
+    - Ansible
+    - Jira

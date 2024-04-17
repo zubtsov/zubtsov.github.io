@@ -1,0 +1,156 @@
+<div id="page-root">
+    <div id="top-container">
+        <div id="left-part">
+            <img src="assets/images/photo.jpg" id="photo"/>
+
+            <div id="top-skills-section">
+                <h2>Top skills</h2>
+                <div id="top-skills-entries">
+                    {% for ts in site.data.cv.summary.top_skills %}
+                        <div class="top-skill-entry"> {{ ts }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="certifications-section">
+                <h2>Certifications</h2>
+                <div id="certification-entries">
+                    {% for cert in site.data.cv.summary.certifications %}
+                        <div class="certification-entry">
+                            <div class="badge-container">
+                                <img src="{{ cert.badge }}" class="cert-badge"/>
+                            </div>
+                            <div class="certification-link-container">
+                                <a href="{{ cert.link }}">{{ cert.name }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="training-section">
+                <h2>Trainings</h2>
+                <div id="training-entries">
+                    {% for train in site.data.cv.summary.trainings %}
+                        <div class="training-entry">
+                            <div class="badge-container">
+                                <img src="{{ train.badge }}" class="train-badge"/>
+                            </div>
+                            <div class="training-link-container">
+                                <a href="{{ train.link }}">{{ train.name }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="education-section">
+                <h2>Education</h2>
+                <div id="education-entries">
+                    {% for ed in site.data.cv.summary.education %}
+                        <div class="education-entry">
+                            <div class="badge-container">
+                                <img src="{{ ed.logo }}" class="education-logo"/>
+                            </div>
+                            <div class="education-info">
+                                {{ ed.university }} <br/>
+                                {{ ed.degree }} <br/>
+                                {{ ed.field_of_study }} <br>
+                                {{ ed.start_date }} - {{ ed.end_date }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div id="right-part">
+            <h1 id="about">{{ site.data.cv.summary.name }}</h1>
+            <p> {{ site.data.cv.summary.about }} </p>
+
+            <h1 id="experience-and-past-projects">Experience and past projects</h1>
+            {% for ex in site.data.cv.experience reversed %}
+                <h2>{{ ex[1].title }}</h2>
+                <h3 id="summary">Summary</h3>
+                <p>
+                    <strong>Company</strong>: <a href="{{ ex[1].company_web_site }}">{{ ex[1].company }}</a><br>
+                    <strong>Location</strong>: {{ ex[1].location }}<br>
+                    <strong>Employment type</strong>: {{ ex[1].employment_type }}<br>
+                    <strong>Start date</strong>: {{ ex[1].start_date }}<br>
+                    <strong>End date</strong>: {{ ex[1].end_date }}<br>
+                    <strong>Duration</strong>: {{ ex[1].duration }}<br>
+                    <strong>Primary role</strong>: {{ ex[1].primary_role }}<br>
+                    {% if ex[1].secondary_roles %}
+                        <strong>Secondary roles</strong>: {{ ex[1].secondary_roles | join: ", " }}<br>
+                    {% endif %}
+                    <strong>Title</strong>: {{ ex[1].title }}<br>
+                    <strong>Domain</strong>: {{ ex[1].domain }}
+                </p>
+
+                <h3 id="description">Description</h3>
+                <p>{{ ex[1].description }}</p>
+
+                <h3 id="responsibilities">Responsibilities</h3>
+                <ul>
+                    {% for resp in ex[1].responsibilities %}
+                        <li>{{ resp }}</li>
+                    {% endfor %}
+                </ul>
+
+                <h3 id="participation-highlights-and-achievements">Participation highlights and achievements</h3>
+                <ul>
+                    {% for part in ex[1].participation_highlights_and_achievements %}
+                        <li>{{ part }}</li>
+                    {% endfor %}
+                </ul>
+
+                <h3 id="technical-details">Technical Details</h3>
+
+                <details>
+                    <summary><h4 id="languages">Languages</h4></summary>
+                    <ul>
+                        {% for lng in ex[1].technical_details.languages %}
+                            <li>{{ lng }}</li>
+                        {% endfor %}
+                    </ul>
+                </details>
+
+
+                <details>
+                    <summary><h4 id="development-tools">Development tools</h4></summary>
+                    <ul>
+                        {% for dt in ex[1].technical_details.development_tools %}
+                            <li>{{ dt }}</li>
+                        {% endfor %}
+                    </ul>
+                </details>
+
+                <details>
+                    <summary><h4 id="toolstechnologies">Tools and technologies</h4></summary>
+                    <ul>
+                        {% for tt in ex[1].technical_details.tools_technologies %}
+                            <li>{{ tt }}</li>
+                        {% endfor %}
+                    </ul>
+                </details>
+
+                <details>
+                    <summary><h4 id="libraries-frameworks">Libraries and frameworks</h4></summary>
+                    <ul>
+                        {% for fl in ex[1].technical_details.frameworks_libraries %}
+                            <li>{{ fl }}</li>
+                        {% endfor %}
+                    </ul>
+                </details>
+
+                <details>
+                    <summary><h4 id="cicd-vcs-issue-trackers">CI/CD, VCS and issue trackers</h4></summary>
+                    <ul>
+                        {% for item in ex[1].technical_details.ci_cd_vcs_issue_trackers %}
+                            <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                </details>
+            {% endfor %}
+        </div>
+    </div>
+</div>

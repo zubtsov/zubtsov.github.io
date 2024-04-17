@@ -1,0 +1,8 @@
+# Experience and past projects
+[//]: # (TODO: add Azure CLI, PowerShell maybe...)
+[//]: # (TODO: add skills?)
+
+[//]: # (# Personal projects and pet projects)
+[//]: # (## spark-commons)
+[//]: # (## Real estate data scraping and analysis)
+[//]: # (Add  others)

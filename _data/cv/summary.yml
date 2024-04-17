@@ -1,0 +1,111 @@
+name: Ruslan Zubtsov
+
+about: |
+  A seasoned Data/Software Engineer with nearly 8 years of experience in software development and over 6 years dedicated to data engineering and analysis.
+  I am skilled in building complex ETL pipelines, optimizing data processes, and leveraging cloud computing, with a strong focus on Microsoft Azure and Databricks.
+  As a passionate and continuous learner, I have developed robust analytical thinking and problem-solving skills, fostered by my university-level mathematical education encompassing a wide range of mathematical disciplines.
+  I am highly attentive to detail while always keeping the bigger picture in mind.
+  Motivated to solve complex and important problems, I am firmly committed to maintaining best practices.
+  I have worked with clients across various industries, including oil and gas, wholesale and distribution, financial services, and telecommunications.
+
+top_skills:
+  - Microsoft Azure
+  - Databricks
+  - Apache Spark
+  - SQL
+  - Python
+  - Scala
+  - Data Engineering
+  - Data Analysis
+  - Data Quality
+  - Data Modeling
+  - Problem-solving and analytical thinking skills in general
+
+certifications:
+  - name: Databricks Solutions Architect Champion
+    link: https://credentials.databricks.com/0d130a68-3355-4038-8b4d-ef9099daed66
+    badge: assets/images/certifications/databricks_solutions_architect_champion.png
+    issued: Dec 2023
+  - name: Databricks Certified Data Engineer Professional
+    link: https://credentials.databricks.com/4bf300c6-5027-4726-bf72-ca0fed8c8c69
+    badge: assets/images/certifications/databricks_data_engineer_professional.png
+    issued: Sep 2023
+  - name: Databricks Certified Data Analyst Associate
+    link: https://credentials.databricks.com/44024e80-cce7-4a03-8b10-b0b0db5167ff
+    badge: assets/images/certifications/databricks_data_analyst_associate.png
+    issued: Sep 2023
+  - name: Databricks Certified Data Engineer Associate
+    link: https://credentials.databricks.com/3b3d24e4-1ccc-45dc-b2e7-5eef5beca003
+    badge: assets/images/certifications/databricks_data_engineer_associate.png
+    issued: Aug 2023
+  - name: Databricks Certified Associate Developer for Apache Spark 3.0
+    link: https://credentials.databricks.com/6804920f-5ef0-4c95-8687-23bbe897cbf7
+    badge: assets/images/certifications/databricks_spark_developer_associate.png
+    issued: Jul 2023
+  - name: Databricks Certified Associate Developer for Apache Spark 2.4 with Scala 2.11
+    link:
+    badge: assets/images/certifications/databricks_spark_developer_associate.png
+    issued: Nov 2019
+  - name: "Microsoft Certified: Azure Data Engineer Associate"
+    link: https://www.credly.com/badges/26ed9e06-90a5-43b4-9995-e97839d53e4f
+    badge: assets/images/certifications/microsoft_azure_data_engineer_associate.svg
+    issued: Apr 2023
+  - name: "[PCAP-31-03] PCAP™ – Certified Associate Python Programmer"
+    link: https://www.credly.com/badges/ca82fb73-d74b-48d0-82f8-9e20d5be5283
+    link2: https://verify.openedg.org/?id=1Ydg.7fcU.Qtqi
+    badge: assets/images/certifications/pcap.png
+    issued: May 2024
+  - name: "Microsoft Certified: Azure Data Fundamentals"
+    link: https://www.credly.com/badges/70cb1019-0dfb-4aa6-834a-c4fc926dd675
+    badge: assets/images/certifications/microsoft_azure_data_fundamentals.png
+    issued: Jan 2023
+  - name: "Microsoft Certified: Azure Fundamentals"
+    link: https://www.credly.com/badges/4a39cb20-d86f-474f-b30c-b6164b9cc04e
+    badge: assets/images/certifications/microsoft_azure_fundamentals.png
+    issued: Dec 2022
+  - name: "[PCEP-30-02] PCEP™ – Certified Entry-Level Python Programmer"
+    link: https://www.credly.com/badges/0fc0b9ef-7a79-4de9-960f-e9b482a38fda
+    link2: https://verify.openedg.org/?id=pgHX.Xw0U.wo7T
+    badge: assets/images/certifications/pcep2.png
+    issued: May 2024
+
+trainings:
+  - name: Databricks Partner Training - Data & AI Governance with Unity Catalog
+    link: https://credentials.databricks.com/c993173d-66be-41e1-aaab-2d07dbdb4d1f
+    badge: assets/images/trainings/databricks_data_and_ai_governance.png
+    issued: Dec 2023
+  - name: Databricks Solutions Architect Essentials
+    link: https://credentials.databricks.com/96e24028-b1a3-41aa-9db5-e489d333ab43
+    badge: assets/images/trainings/databricks_solutions_architect_essentials.png
+    issued: Dec 2023
+  - name: Databricks Lakehouse Fundamentals
+    link: https://credentials.databricks.com/33230442-55be-4b4b-b03d-1647ecb8138a
+    badge: assets/images/trainings/databricks_lakehouse_fundamentals.png
+    issued: Jul 2023
+  - name: Databricks Academy Accreditation - Azure Databricks Platform Architect
+    link: https://credentials.databricks.com/5c613351-fde9-4c8c-8bea-1b44afd8813d
+    badge: assets/images/trainings/databricks_platform_architect.png
+    issued: Dec 2023
+  - name: Databricks Academy Accreditation - Generative AI Fundamentals
+    link: https://credentials.databricks.com/a94f853e-f8a4-41cb-8124-8d9676234040
+    badge: assets/images/trainings/databricks_generative_ai_fundamentals.png
+    issued: Dec 2023
+  - name: Databricks Academy Accreditation - Platform Administrator
+    link: https://credentials.databricks.com/68d6de7b-1909-4854-9c0f-71bcbb665c08
+    badge: assets/images/trainings/databricks_platform_administrator.png
+    issued: Dec 2023
+
+
+education:
+  - university: Samara State Aerospace University
+    degree: Master of Science - MS
+    field_of_study: Mechanics and mathematical modeling
+    start_date: September 2015
+    end_date: August 2017
+    logo: assets/images/education/samara_university_logo.png
+  - university: Samara State Aerospace University
+    degree: Bachelor of Science - BS
+    field_of_study: Applied Mathematics & Informatics
+    start_date: September 2011
+    end_date: July 2015
+    logo: assets/images/education/samara_university_logo.png
