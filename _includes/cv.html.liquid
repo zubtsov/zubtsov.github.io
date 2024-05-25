@@ -68,37 +68,37 @@
             <p> {{ site.data.cv.summary.about }} </p>
 
             <h1 id="experience-and-past-projects">Experience and past projects</h1>
-            {% for ex in site.data.cv.experience reversed %}
-                <h2>{{ ex[1].title }}</h2>
+            {% for ex in site.data.cv.experience.projects reversed %}
+                <h2>{{ ex.title }}</h2>
                 <h3 id="summary">Summary</h3>
                 <p>
-                    <strong>Company</strong>: <a href="{{ ex[1].company_web_site }}">{{ ex[1].company }}</a><br>
-                    <strong>Location</strong>: {{ ex[1].location }}<br>
-                    <strong>Employment type</strong>: {{ ex[1].employment_type }}<br>
-                    <strong>Start date</strong>: {{ ex[1].start_date }}<br>
-                    <strong>End date</strong>: {{ ex[1].end_date }}<br>
-                    <strong>Duration</strong>: {{ ex[1].duration }}<br>
-                    <strong>Primary role</strong>: {{ ex[1].primary_role }}<br>
-                    {% if ex[1].secondary_roles %}
-                        <strong>Secondary roles</strong>: {{ ex[1].secondary_roles | join: ", " }}<br>
+                    <strong>Company</strong>: <a href="{{ ex.company_web_site }}">{{ ex.company }}</a><br>
+                    <strong>Location</strong>: {{ ex.location }}<br>
+                    <strong>Employment type</strong>: {{ ex.employment_type }}<br>
+                    <strong>Start date</strong>: {{ ex.start_date }}<br>
+                    <strong>End date</strong>: {{ ex.end_date }}<br>
+                    <strong>Duration</strong>: {{ ex.duration }}<br>
+                    <strong>Primary role</strong>: {{ ex.primary_role }}<br>
+                    {% if ex.secondary_roles %}
+                        <strong>Secondary roles</strong>: {{ ex.secondary_roles | join: ", " }}<br>
                     {% endif %}
-                    <strong>Title</strong>: {{ ex[1].title }}<br>
-                    <strong>Domain</strong>: {{ ex[1].domain }}
+                    <strong>Title</strong>: {{ ex.title }}<br>
+                    <strong>Domain</strong>: {{ ex.domain }}
                 </p>
 
                 <h3 id="description">Description</h3>
-                <p>{{ ex[1].description }}</p>
+                <p>{{ ex.description }}</p>
 
                 <h3 id="responsibilities">Responsibilities</h3>
                 <ul>
-                    {% for resp in ex[1].responsibilities %}
+                    {% for resp in ex.responsibilities %}
                         <li>{{ resp }}</li>
                     {% endfor %}
                 </ul>
 
                 <h3 id="participation-highlights-and-achievements">Participation highlights and achievements</h3>
                 <ul>
-                    {% for part in ex[1].participation_highlights_and_achievements %}
+                    {% for part in ex.participation_highlights_and_achievements %}
                         <li>{{ part }}</li>
                     {% endfor %}
                 </ul>
@@ -108,7 +108,7 @@
                 <details>
                     <summary><h4 id="languages">Languages</h4></summary>
                     <ul>
-                        {% for lng in ex[1].technical_details.languages %}
+                        {% for lng in ex.technical_details.languages %}
                             <li>{{ lng }}</li>
                         {% endfor %}
                     </ul>
@@ -118,7 +118,7 @@
                 <details>
                     <summary><h4 id="development-tools">Development tools</h4></summary>
                     <ul>
-                        {% for dt in ex[1].technical_details.development_tools %}
+                        {% for dt in ex.technical_details.development_tools %}
                             <li>{{ dt }}</li>
                         {% endfor %}
                     </ul>
@@ -127,7 +127,7 @@
                 <details>
                     <summary><h4 id="toolstechnologies">Tools and technologies</h4></summary>
                     <ul>
-                        {% for tt in ex[1].technical_details.tools_technologies %}
+                        {% for tt in ex.technical_details.tools_technologies %}
                             <li>{{ tt }}</li>
                         {% endfor %}
                     </ul>
@@ -136,7 +136,7 @@
                 <details>
                     <summary><h4 id="libraries-frameworks">Libraries and frameworks</h4></summary>
                     <ul>
-                        {% for fl in ex[1].technical_details.frameworks_libraries %}
+                        {% for fl in ex.technical_details.frameworks_libraries %}
                             <li>{{ fl }}</li>
                         {% endfor %}
                     </ul>
@@ -145,7 +145,7 @@
                 <details>
                     <summary><h4 id="cicd-vcs-issue-trackers">CI/CD, VCS and issue trackers</h4></summary>
                     <ul>
-                        {% for item in ex[1].technical_details.ci_cd_vcs_issue_trackers %}
+                        {% for item in ex.technical_details.ci_cd_vcs_issue_trackers %}
                             <li>{{ item }}</li>
                         {% endfor %}
                     </ul>

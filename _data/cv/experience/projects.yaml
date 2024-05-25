@@ -1,0 +1,458 @@
+- title: Software Engineer
+  company: NetCracker Technology
+  company_web_site: "https://www.netcracker.com"
+  location: Samara, Russia
+  employment_type: Full-time
+  start_date: July 2016
+  end_date: December 2017
+  duration: 1 year 6 months
+  primary_role: Developer
+  domain: Telecommunications, ISP/MSP
+
+  description: |
+    A BSS/OSS with numerous components and microservices, including:
+    - Historical data storage and archiving service (Oracle Database, WebLogic).
+    - Data transformation service (Spring, Elasticsearch, Logstash).
+    - System events dispatcher service (Spring, Apache Kafka).
+    - Reporting system (Pentaho BI, Docker, OpenShift).
+
+  responsibilities:
+    - developing new and supporting existing features and products; bug fixing
+    - conducting root cause analysis; troubleshooting and debugging
+    - optimizing performance, including query and code profiling
+    - eliminating technical debt; code refactoring
+    - improving code coverage through tests
+    - configuring CI/CD processes and pipelines
+    - developing proofs of concept (PoCs)
+    - managing infrastructure on an occasional basis
+
+  participation_highlights_and_achievements:
+    - Refactored the algorithm for merging sets of time intervals, reducing computational complexity to linear.
+    - Optimized the performance of SQL queries in Oracle Database 12c.
+    - Configured a custom Pentaho BI Docker image for deployment on OpenShift.
+    - Configured CI/CD pipelines using Jenkins, Maven, and Ant.
+    - Implemented new features as requested by end-users.
+    - Improved test coverage by developing multiple unit tests.
+    - Refactored legacy code to enhance cleanliness and maintainability.
+
+  technical_details:
+    languages:
+      - Java
+      - Oracle PL/SQL
+      - Python (Jython)
+      - Groovy
+
+    development_tools:
+      - IntelliJ Idea IDE
+      - Oracle SQL Developer
+
+    tools_technologies:
+
+    frameworks_libraries:
+      - Spring
+      - Google Guice
+      - Log4j
+      - EasyMock
+      - Mockito
+      - JMockit
+      - PowerMock
+      - JUnit
+      - Jython
+
+    ci_cd_vcs_issue_trackers:
+      - Git
+      - Maven
+      - Jenkins
+      - Bash
+      - Ant
+      - SVN
+- title: Data Engineer
+  company: EPAM Systems
+  company_web_site: "https://www.epam.com"
+  location: Minsk, Belarus
+  employment_type: Full-time
+  start_date: December 2017
+  end_date: May 2018
+  duration: 6 months
+  primary_role: Data Engineer
+
+  description: |
+    Participated in intensive courses with a proctored assessment and implemented two practical capstone projects:
+    - 6-week mentored Elasticsearch & Apache Solr course
+    - 2-month mentored Big Data learning course
+
+  responsibilities:
+    - gaining theoretical and practical experience in data engineering and analysis
+    - learning new skills, technologies, techniques, approaches, and best practices
+
+  participation_highlights_and_achievements:
+    - Set up locally running Elasticsearch and Solr clusters using Docker Swarm.
+    - Developed an email ingestion/archiving system on Spring Batch from SMTP to Elasticsearch and Solr, enabling full-text search and analytics on the contents of messages.
+
+  technical_details:
+    languages:
+      - Java
+      - Scala
+      - SQL
+
+    development_tools:
+      - IntelliJ Idea IDE
+
+    tools_technologies:
+      - ElasticSearch
+      - Apache Solr
+      - Docker
+      - Apache Spark
+      - Apache Hadoop
+      - Apache Hive
+      - Apache Impala
+
+    frameworks_libraries:
+      - Spring Batch
+
+    ci_cd_vcs_issue_trackers:
+      - Git
+      - Apache Maven
+      - Bash
+      - Jira
+- title: Software Engineer / Senior Software Engineer
+  company: EPAM Systems
+  company_web_site: "https://www.epam.com"
+  location: Minsk, Belarus
+  employment_type: Full-time
+  start_date: May 2018
+  end_date: October 2021
+  duration: 3 years 6 months
+  primary_role: Data Engineer
+  secondary_roles:
+    - Data Analyst
+    - Data Quality Engineer
+    - Data Modeler
+  domain: oil and gas industry
+
+  description: |
+    Data and analytics platform (Data Lake).
+
+  responsibilities:
+    - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
+    - requirements gathering and clarification
+    - extending and improvement of platform capabilities
+    - pipelines and data quality monitoring and automation
+    - performance optimization
+    - data modeling
+    - conducting code reviews and workshops on best practices
+    - tasks decomposition and delegation
+    - infrastructure management (occasionally)
+
+  participation_highlights_and_achievements:
+    - Developed and generated numerous complex ETL jobs using Apache Velocity templates and a custom Maven plugin. This included ingestion of various data formats (Parquet, CSV, Avro, Excel spreadsheets using POI + Spark Datasource API, LAS text files, XML/WITSML files, HBase tables) and SFTP; SMB file downloading using Python.
+    - Extended and improved platform capabilities, including basic schema evolution and snapshot/delta merge.
+    - Implemented on-premise email notifications with attachments.
+    - Developed Proof of Concept (POC) dashboards using Excel and Power Pivot.
+    - Productionalized and enhanced a drilling performance optimization algorithm (transitioned from Python + Pandas to Scala + Spark).
+    - Collaborated with the customer to gather requirements, reverse-engineered complex financial calculations from Excel spreadsheets, and implemented them as automated ETL pipelines.
+    - Suggested, executed, and automated data quality estimations, metrics, and checks, utilizing Apache JMeter where applicable.
+    - Authored a test framework/library and automated tests for data visualization Spotfire dashboards in Python + Selenium.
+    - Migrated existing ETL jobs from SQL to Scala and assisted in the transition from on-premise Cloudera to Microsoft Azure Cloud.
+    - Optimized the performance of ETL jobs, including the development of a custom writer using a bulk SQL server driver and RDD (20x performance boost in comparison with JDBC).
+    - Developed Ansible playbooks for CI/CD pipelines and infrastructure deployment.
+
+  technical_details:
+    languages:
+      - Scala
+      - SQL
+      - Python
+      - Java
+      - Power Query/M Language (Microsoft Excel)
+      - DAX (Microsoft Excel)
+      - Visual Basic (Microsoft Excel)
+
+    development_tools:
+      - IntelliJ Idea IDE
+      - Microsoft Excel
+
+    tools_technologies:
+      - Azure Databricks
+      - Azure Data Factory
+      - Azure Data Lake Storage
+      - Azure Synapse
+      - Azure SQL Database
+      - JMeter
+      - Selenium
+      - Apache Oozie
+      - Apache Sqoop
+      - Azure Logic App
+
+    frameworks_libraries:
+      - ScalaTest
+      - Apache POI
+
+    ci_cd_vcs_issue_trackers:
+      - Azure DevOps
+      - Git
+      - Apache Maven
+      - Jenkins
+      - Nexus
+      - Artifactory (JFrog)
+      - Ansible
+      - Jira
+- title: Senior Software Engineer
+  company: EPAM Systems
+  company_web_site: "https://www.epam.com"
+  location: Minsk, Belarus  (Tbilisi, Georgia since March 2022)
+  employment_type: Full-time
+  start_date: October 2021
+  end_date: August 2022
+  duration: 11 months
+  primary_role: Data Engineer
+  secondary_roles:
+    - Data Analyst
+    - Data Quality Engineer
+  domain: wholesale, retail and distribution of electrical products, solutions, and related services
+
+  description: |
+    Data and analytics platform (Data Lake, Lakehouse).
+
+  responsibilities:
+    - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
+    - extending and improvement of platform capabilities
+    - requirements gathering and clarification
+    - pipelines and data quality monitoring and automation
+    - performance optimization
+    - data modeling and architecture
+    - conducting code reviews and workshops on best practices
+    - tasks decomposition and delegation
+    - writing documentation
+    - mentoring of and leading other developers
+    - infrastructure management (occasionally)
+
+  participation_highlights_and_achievements:
+    - Wrote, refactored, and migrated multiple ETL jobs and proof of concepts (POCs), including vendor profitability, and harmonization and unification of country-specific data.
+    - Reimplemented various standardized data lake layers (Landing, Raw, Refined, Prepared, Unified) and managed different load types (full, incremental, rolling period, SCD type 2).
+    - Optimized performance and reduced costs of ETL jobs and data lake storage structures.
+    - Extensively refactored code and resolved numerous bugs.
+    - Worked on data quality evaluation and validation.
+    - Implemented data flow monitoring.
+    - Conducted decomposition and delegation of large stories/tasks, and managed backlog population and refinement.
+    - Actively participated in discussions on platform design and evolution.
+    - Conducted a unified dimensional model (star schema) review, identified inconsistencies/discrepancies, and suggested improvements.
+    - Authored technical documentation and development guides.
+    - Mentored recently joined developers.
+    - Implemented automated testing for Spark ETL jobs (both end-to-end and unit testing).
+    - Implemented database schema evolution and versioning using Liquibase on Azure SQL Database and Azure Synapse Analytics.
+    - Participated in the development of CI/CD processes and pipelines for various environments.
+    - Led a team of three developers.
+
+  technical_details:
+    languages:
+      - Scala
+      - SQL
+      - Java
+      - Python
+      - YAML
+      - XML
+      - JSON
+
+    development_tools:
+      - IntelliJ Idea
+      - SQL Server Management Studio
+      - Azure Storage Explorer
+      - Azure Data Studio
+      - Microsoft Excel
+
+    tools_technologies:
+      - Azure Databricks
+      - Azure Synapse Analytics
+      - Azure Data Factory
+      - Azure Functions
+      - Azure Data Lake Storage
+      - Azure SQL Database
+      - Azure Key Vault
+      - Apache Spark
+      - Delta Lake
+      - Apache Hive
+
+    frameworks_libraries:
+
+    ci_cd_vcs_issue_trackers:
+      - Azure DevOps
+      - Git
+      - Apache Maven
+      - Liquibase
+      - Atlassian Jira
+      - Atlassian Confluence
+- title: Software Engineer
+  company: DataArt
+  company_web_site: "https://www.dataart.com/"
+  location: Tbilisi, Georgia
+  employment_type: Full-time
+  start_date: August 2022
+  end_date: January 2023
+  duration: 6 months
+  primary_role: Data Engineer
+  secondary_roles:
+    - Data Quality Engineer
+  domain: financial services, insurance
+
+  description: |
+    Data and analytics platform (Data Lake, Lakehouse).
+
+  responsibilities:
+    - developing of new and support of existing complex ETL/ELT pipelines
+    - requirements gathering and clarification
+    - conducting code reviews and workshops on best practices
+    - mentoring of and leading other developers
+
+  participation_highlights_and_achievements:
+    - Developed new data ingestion flows for various sources, including FTP, REST APIs, etc., using ELT/ETL processes, and implemented diverse data transformations.
+    - Performed automated data cleansing and implemented data quality checks.
+    - Enforced the usage of Apache NiFi best practices across the team, including naming conventions, dataflow structures, and the use of context parameters and variables.
+    - Documented AWA job deployment processes, identified problems and bottlenecks, and suggested improvements.
+    - Refactored, maintained, supported, deployed, and monitored existing AWA & Apache NiFi jobs.
+    - Initiated and participated in discussions regarding platform architecture and CI/CD processes, and advocated for the introduction of best practices (code reviews, version control, etc.).
+
+  technical_details:
+    languages:
+      - SQL
+      - Python
+      - Groovy
+
+    development_tools:
+      - IntelliJ Idea
+
+    tools_technologies:
+      - Apache NiFi
+      - Automic Workload Automation (AWA)
+      - Bash
+      - Amazon S3
+
+    frameworks_libraries:
+      - JSON Jolt
+
+    ci_cd_vcs_issue_trackers:
+      - Git
+      - NiFi Registry
+      - Automic Workload Automation (AWA) jobs
+      - Atlassian Jira
+- title: Senior Software Engineer
+  company: Quantori
+  company_web_site: "https://quantori.com/"
+  location: Tbilisi, Georgia
+  employment_type: Full-time
+  start_date: February 2023
+  end_date: April 2023
+  duration: 3 months
+  primary_role: Data Engineer
+  domain: healthcare and life science
+
+  description: |
+    Automation of early diagnosis of cancer.
+    The budgets have not been approved and the project position has been cancelled.
+
+  responsibilities:
+
+  participation_highlights_and_achievements:
+    - certifications preparation (self-development and education)
+    - reading literature and documentation (self-development and education)
+    - competitive programming (self-development and education)
+
+  technical_details:
+    languages:
+    development_tools:
+    tools_technologies:
+    frameworks_libraries:
+    ci_cd_vcs_issue_trackers:
+- title: Lead Software Engineer
+  company: EPAM Systems
+  company_web_site: "https://www.epam.com"
+  location: Tbilisi, Georgia
+  employment_type: Full-time
+  start_date: May 2023
+  end_date: May 2024
+  duration: 1 year
+  primary_role: Data Engineer
+  secondary_roles:
+    - Data Analyst
+    - Data Quality Engineer
+    - Data Modeler
+  domain: wholesale, retail and distribution of electrical products, solutions, and related services
+
+  description: |
+    Data and analytics platform (Data Lake, Lakehouse).
+
+  responsibilities:
+    - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
+    - extending and improvement of platform capabilities
+    - requirements gathering and clarification
+    - pipelines and data quality monitoring and automation
+    - performance optimization
+    - data modeling and architecture
+    - conducting code reviews and workshops on best practices
+    - tasks decomposition and delegation
+    - writing documentation
+    - mentoring of and leading other developers
+    - infrastructure management (occasionally)
+
+  participation_highlights_and_achievements:
+    - Implemented ETL pipelines with complex logic, formulas, and data structures.
+    - Automated data quality monitoring processes.
+    - Optimized the performance of ETL pipelines.
+    - Successfully refactored the project's codebase, achieving a substantial reduction in code volume (by a factor of 2 to 20), while enhancing maintainability and efficiency.
+    - Analyzed and discussed project requirements with stakeholders.
+    - Taught and enforced best practices in data engineering to the team.
+    - Mentored and consulted new team members on project specifics and technical challenges; conducted code reviews.
+    - Actively participated in meetings focused on architecture, data governance, and data modeling.
+    - Developed the "Product Alternatives" web application using the Flask, SQLAlchemy, and GraphQL frameworks (initially written with Streamlit + Pandas).
+    - "Implemented two proof of concept (POC) projects involving Large Language Models (LLMs): a virtual analyst chatbot and feedback analysis pipeline."
+    - Made adjustments in CI/CD pipelines.
+
+  technical_details:
+    languages:
+      - Scala
+      - SQL
+      - Java
+      - Python
+      - JavaScript
+      - HTML
+      - CSS
+      - GraphQL
+      - YAML
+      - XML
+      - JSON
+
+    development_tools:
+      - IntelliJ Idea
+      - GitHub Copilot
+      - SQL Server Management Studio
+      - Azure Storage Explorer
+      - Azure Data Studio
+      - Microsoft Excel
+
+    tools_technologies:
+      - Azure Databricks
+      - Azure Data Factory
+      - Azure Functions
+      - Azure Data Lake Storage
+      - Azure SQL Database
+      - Azure Key Vault
+      - Azure App Service
+      - Azure Functions
+      - Azure Web Apps
+      - Azure Monitor
+      - Apache Spark
+      - Delta Lake
+      - Apache Hive
+      - OpenTelemetry
+
+    frameworks_libraries:
+      - Flask
+      - SQLAlchemy
+      - Pandas
+
+    ci_cd_vcs_issue_trackers:
+      - Azure DevOps
+      - Git
+      - Apache Maven
+      - Liquibase
+      - Atlassian Jira
+      - Atlassian Confluence
