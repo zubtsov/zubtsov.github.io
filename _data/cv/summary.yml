@@ -30,6 +30,10 @@ certifications:
     link: https://credentials.databricks.com/4bf300c6-5027-4726-bf72-ca0fed8c8c69
     badge: assets/images/certifications/databricks_data_engineer_professional.png
     issued: Sep 2023
+  - name: "[PCPP-32-101] PCPP1 – Certified Professional Python Programmer Level 1"
+    link: https://www.credly.com/badges/e25bd595-f38e-45f9-911f-396fec2142b9
+    badge: assets/images/certifications/pcpp_level1.png
+    issued: Jul 2024
   - name: Databricks Certified Data Analyst Associate
     link: https://credentials.databricks.com/44024e80-cce7-4a03-8b10-b0b0db5167ff
     badge: assets/images/certifications/databricks_data_analyst_associate.png
