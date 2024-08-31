@@ -6,7 +6,7 @@
             <div id="top-skills-section">
                 <h2>Top skills</h2>
                 <div id="top-skills-entries">
-                    {% for ts in site.data.cv.summary.top_skills %}
+                    {% for ts in data.cv.summary.top_skills %}
                         <div class="top-skill-entry"> {{ ts }}</div>
                     {% endfor %}
                 </div>
@@ -15,7 +15,7 @@
             <div id="certifications-section">
                 <h2>Certifications</h2>
                 <div id="certification-entries">
-                    {% for cert in site.data.cv.summary.certifications %}
+                    {% for cert in data.cv.summary.certifications %}
                         <div class="certification-entry">
                             <div class="badge-container">
                                 <img src="{{ cert.badge }}" class="cert-badge"/>
@@ -31,7 +31,7 @@
             <div id="training-section">
                 <h2>Trainings</h2>
                 <div id="training-entries">
-                    {% for train in site.data.cv.summary.trainings %}
+                    {% for train in data.cv.summary.trainings %}
                         <div class="training-entry">
                             <div class="badge-container">
                                 <img src="{{ train.badge }}" class="train-badge"/>
@@ -47,7 +47,7 @@
             <div id="education-section">
                 <h2>Education</h2>
                 <div id="education-entries">
-                    {% for ed in site.data.cv.summary.education %}
+                    {% for ed in data.cv.summary.education %}
                         <div class="education-entry">
                             <div class="badge-container">
                                 <img src="{{ ed.logo }}" class="education-logo"/>
@@ -64,11 +64,11 @@
             </div>
         </div>
         <div id="right-part">
-            <h1 id="about">{{ site.data.cv.summary.name }}</h1>
-            <p> {{ site.data.cv.summary.about }} </p>
+            <h1 id="about">{{ data.cv.summary.name }}</h1>
+            <p> {{ data.cv.summary.about }} </p>
 
             <h1 id="experience-and-past-projects">Experience and past projects</h1>
-            {% for ex in site.data.cv.experience.projects reversed %}
+            {% for ex in data.cv.experience.projects | reverse %}
                 <h2>{{ ex.title }}</h2>
                 <h3 id="summary">Summary</h3>
                 <p>
@@ -80,7 +80,7 @@
                     <strong>Duration</strong>: {{ ex.duration }}<br>
                     <strong>Primary role</strong>: {{ ex.primary_role }}<br>
                     {% if ex.secondary_roles %}
-                        <strong>Secondary roles</strong>: {{ ex.secondary_roles | join: ", " }}<br>
+                        <strong>Secondary roles</strong>: {{ ex.secondary_roles | join(', ') }}<br>
                     {% endif %}
                     <strong>Title</strong>: {{ ex.title }}<br>
                     <strong>Domain</strong>: {{ ex.domain }}

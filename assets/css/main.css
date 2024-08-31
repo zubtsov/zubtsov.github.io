@@ -1,3 +1,38 @@
+@media print {
+    body {
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        margin: 0; /* Remove margins */
+        padding: 10mm; /* Optional: add padding if needed */
+        box-sizing: border-box;
+    }
+
+    /* Ensure fonts are sized appropriately */
+    body, p, h1, h2, h3, h4, h5, h6 {
+        font-size: 12pt; /* Adjust font size as needed */
+    }
+
+    .top-skill-entry {
+        font-size: 7pt; /* Adjust font size as needed */
+    }
+
+    /* Handle images and other elements */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Avoid page breaks inside certain elements */
+    h1, h2, h3, h4, h5, h6, p {
+        page-break-inside: avoid;
+    }
+
+    /* Customize layout or hide non-essential elements */
+    .no-print {
+        display: none;
+    }
+}
+
 :root {
     --dark-gray: rgb(89, 89, 89);
     --light-gray: #9a9a9a;
@@ -8,7 +43,6 @@
 
     --microsoft-blue: #0064B5;
     --microsoft-dark-blue: #001B4F;
-
 
     --certifications-font: 1vw Arial, sans-serif;
     --trainings-font: 1vw Arial, sans-serif;

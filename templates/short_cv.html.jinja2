@@ -1,0 +1,78 @@
+<div id="page-root">
+    <div id="top-container">
+        <div id="left-part">
+            <img src="assets/images/photo.jpg" id="photo"/>
+
+            <div id="top-skills-section">
+                <h2>Top skills</h2>
+                <div id="top-skills-entries">
+                    {% for ts in data.cv.summary.top_skills %}
+                        <div class="top-skill-entry"> {{ ts }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="certifications-section">
+                <h2>Certifications</h2>
+                <div id="certification-entries">
+                    {% for cert in data.cv.summary.certifications %}
+                        <div class="certification-entry">
+                            <div class="badge-container">
+                                <img src="{{ cert.badge }}" class="cert-badge"/>
+                            </div>
+                            <div class="certification-link-container">
+                                <a href="{{ cert.link }}">{{ cert.name }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="training-section">
+                <h2>Trainings</h2>
+                <div id="training-entries">
+                    {% for train in data.cv.summary.trainings %}
+                        <div class="training-entry">
+                            <div class="badge-container">
+                                <img src="{{ train.badge }}" class="train-badge"/>
+                            </div>
+                            <div class="training-link-container">
+                                <a href="{{ train.link }}">{{ train.name }}</a>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div id="education-section">
+                <h2>Education</h2>
+                <div id="education-entries">
+                    {% for ed in data.cv.summary.education %}
+                        <div class="education-entry">
+                            <div class="badge-container">
+                                <img src="{{ ed.logo }}" class="education-logo"/>
+                            </div>
+                            <div class="education-info">
+                                {{ ed.university }} <br/>
+                                {{ ed.degree }} <br/>
+                                {{ ed.field_of_study }} <br>
+                                {{ ed.start_date }} - {{ ed.end_date }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div id="right-part">
+            <h1 id="about">{{ data.cv.summary.name }}</h1>
+            <p> {{ data.cv.summary.about }} </p>
+
+            <h1 id="experience">Experience</h1>
+            <ul>
+                {%  for responsibility in data.cv.experience.projects_short.responsibilities_summary %}
+                <li>{{ responsibility }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
