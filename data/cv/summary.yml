@@ -22,6 +22,10 @@ top_skills:
   - Data Modeling
   - Problem-solving and analytical thinking skills in general
 
+skills:
+  - Apache NiFi
+  - Airflow
+
 certifications:
   - name: Databricks Solutions Architect Champion
     link: https://credentials.databricks.com/0d130a68-3355-4038-8b4d-ef9099daed66

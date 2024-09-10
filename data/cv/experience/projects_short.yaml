@@ -4,14 +4,26 @@ companies:
   - EPAM Systems
 
 responsibilities_summary:
-  - Designed and built complex data pipelines and Proof of Concept (PoC) applications.
-  - Integrated data from various sources, including APIs, third-party services, and internal databases.
-  - Actively participated in the design and extension of Data Lake platforms.
-  - Monitored and automated data pipelines, ensuring data quality and reliability.
-  - Led efforts in refactoring codebases and eliminating technical debt.
-  - Optimized performance and costs across data processes and applications.
-  - Developed and maintained data models to support business needs.
-  - Mentored and led other developers, conducting code reviews and workshops on best practices.
-  - Gathered, clarified, and validated technical and business requirements.
-  - Authored comprehensive documentation for pipelines and data.
-  - Actively participated in configuration and management of CI/CD processes and pipelines to streamline development workflows.
+  - |
+      Designed and built complex, extensible, dynamic data ETL/ELT pipelines and Proof of Concept (PoC) applications using Python, SQL, Scala and Java languages and Large Language Models (LLMs).
+  - |
+      Integrated data from various sources and file formats, including APIs, third-party services, and internal databases. 
+      These include: Parquet, ORC, Avro, CSV, Excel spreadsheets, Web pages, HBase/SQL Server/Azure Synapse/Hive tables, SFTP, SMB, LAS text files, XML/WITSML files and others.
+  - |
+      Actively participated in the design and extension of Data Lake platforms.
+  - |
+      Monitored and automated data pipelines, ensuring data quality and reliability.
+  - |
+      Led efforts in refactoring codebases and eliminating technical debt.
+  - |
+      Optimized performance and costs across data processes and applications.
+  - |
+      Developed and maintained data models to support business needs.
+  - |
+      Mentored and led other developers, conducting code reviews and workshops on best practices.
+  - |
+      Gathered, clarified, and validated technical and business requirements.
+  - |
+      Authored comprehensive documentation for pipelines and data.
+  - |
+      Actively participated in configuration and management of CI/CD processes and pipelines to streamline development workflows.
