@@ -27,13 +27,13 @@
     - managing infrastructure on an occasional basis
 
   participation_highlights_and_achievements:
-    - Refactored the algorithm for merging sets of time intervals, reducing computational complexity to linear.
-    - Optimized the performance of SQL queries in Oracle Database 12c.
-    - Configured a custom Pentaho BI Docker image for deployment on OpenShift.
-    - Configured CI/CD pipelines using Jenkins, Maven, and Ant.
-    - Implemented new features as requested by end-users.
-    - Improved test coverage by developing multiple unit tests.
-    - Refactored legacy code to enhance cleanliness and maintainability.
+    - refactored the algorithm for merging sets of time intervals, reducing computational complexity to linear.
+    - optimized the performance of SQL queries in Oracle Database 12c.
+    - configured a custom Pentaho BI Docker image for deployment on OpenShift.
+    - configured CI/CD pipelines using Jenkins, Maven, and Ant.
+    - implemented new features as requested by end-users.
+    - improved test coverage by developing multiple unit tests.
+    - refactored legacy code to enhance cleanliness and maintainability.
 
   technical_details:
     languages:
@@ -46,7 +46,7 @@
       - IntelliJ Idea IDE
       - Oracle SQL Developer
 
-    tools_technologies:
+    tools_technologies: []
 
     frameworks_libraries:
       - Spring
@@ -66,7 +66,7 @@
       - Bash
       - Ant
       - SVN
-- title: Data Engineer
+- title: Software Engineer
   company: EPAM Systems
   company_web_site: "https://www.epam.com"
   location: Minsk, Belarus
@@ -136,7 +136,7 @@
   responsibilities:
     - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
     - requirements gathering and clarification
-    - extending and improvement of platform capabilities
+    - extending and improvement of data platform capabilities
     - pipelines and data quality monitoring and automation
     - performance optimization
     - data modeling
@@ -145,17 +145,17 @@
     - infrastructure management (occasionally)
 
   participation_highlights_and_achievements:
-    - Developed and generated numerous complex ETL jobs using Apache Velocity templates and a custom Maven plugin. This included ingestion of various data formats (Parquet, CSV, Avro, Excel spreadsheets using POI + Spark Datasource API, LAS text files, XML/WITSML files, HBase tables) and SFTP; SMB file downloading using Python.
-    - Extended and improved platform capabilities, including basic schema evolution and snapshot/delta merge.
-    - Implemented on-premise email notifications with attachments.
-    - Developed Proof of Concept (POC) dashboards using Excel and Power Pivot.
-    - Productionalized and enhanced a drilling performance optimization algorithm (transitioned from Python + Pandas to Scala + Spark).
-    - Collaborated with the customer to gather requirements, reverse-engineered complex financial calculations from Excel spreadsheets, and implemented them as automated ETL pipelines.
-    - Suggested, executed, and automated data quality estimations, metrics, and checks, utilizing Apache JMeter where applicable.
-    - Authored a test framework/library and automated tests for data visualization Spotfire dashboards in Python + Selenium.
-    - Migrated existing ETL jobs from SQL to Scala and assisted in the transition from on-premise Cloudera to Microsoft Azure Cloud.
-    - Optimized the performance of ETL jobs, including the development of a custom writer using a bulk SQL server driver and RDD (20x performance boost in comparison with JDBC).
-    - Developed Ansible playbooks for CI/CD pipelines and infrastructure deployment.
+    - developed and generated numerous complex ETL jobs using Apache Velocity templates and a custom Maven plugin. This included ingestion of various data formats (Parquet, CSV, Avro, Excel spreadsheets using POI + Spark Datasource API, LAS text files, XML/WITSML files, HBase tables) and SFTP; SMB file downloading using Python.
+    - extended and improved data platform capabilities, including basic schema evolution and snapshot/delta merge.
+    - implemented on-premises email notifications with attachments.
+    - developed Proof of Concept (POC) dashboards using Excel and Power Pivot.
+    - productionalized and enhanced a drilling performance optimization algorithm (transitioned from Python + Pandas to Scala + Spark).
+    - collaborated with the customer to gather requirements, reverse-engineered complex financial calculations from Excel spreadsheets, and implemented them as automated ETL pipelines.
+    - suggested, executed, and automated data quality estimations, metrics, and checks, utilizing Apache JMeter where applicable.
+    - authored a test framework/library and automated tests for data visualization Spotfire dashboards in Python + Selenium.
+    - migrated existing ETL jobs from SQL to Scala and assisted in the transition from on-premises Cloudera to Microsoft Azure Cloud.
+    - optimized the performance of ETL jobs, including the development of a custom writer using a bulk SQL server driver and RDD (20x performance boost in comparison with JDBC).
+    - developed Ansible playbooks for CI/CD pipelines and infrastructure deployment.
 
   technical_details:
     languages:
@@ -215,7 +215,7 @@
 
   responsibilities:
     - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
-    - extending and improvement of platform capabilities
+    - extending and improvement of data platform capabilities
     - requirements gathering and clarification
     - pipelines and data quality monitoring and automation
     - performance optimization
@@ -227,21 +227,21 @@
     - infrastructure management (occasionally)
 
   participation_highlights_and_achievements:
-    - Wrote, refactored, and migrated multiple ETL jobs and proof of concepts (POCs), including vendor profitability, and harmonization and unification of country-specific data.
-    - Reimplemented various standardized data lake layers (Landing, Raw, Refined, Prepared, Unified) and managed different load types (full, incremental, rolling period, SCD type 2).
-    - Optimized performance and reduced costs of ETL jobs and data lake storage structures.
-    - Extensively refactored code and resolved numerous bugs.
-    - Worked on data quality evaluation and validation.
-    - Implemented data flow monitoring.
-    - Conducted decomposition and delegation of large stories/tasks, and managed backlog population and refinement.
-    - Actively participated in discussions on platform design and evolution.
-    - Conducted a unified dimensional model (star schema) review, identified inconsistencies/discrepancies, and suggested improvements.
-    - Authored technical documentation and development guides.
-    - Mentored recently joined developers.
-    - Implemented automated testing for Spark ETL jobs (both end-to-end and unit testing).
-    - Implemented database schema evolution and versioning using Liquibase on Azure SQL Database and Azure Synapse Analytics.
-    - Participated in the development of CI/CD processes and pipelines for various environments.
-    - Led a team of three developers.
+    - wrote, refactored, and migrated multiple ETL jobs and proof of concepts (POCs), including vendor profitability, and harmonization and unification of country-specific data.
+    - reimplemented various standardized data lake layers (Landing, Raw, Refined, Prepared, Unified) and managed different load types (full, incremental, rolling period, SCD type 2).
+    - optimized performance and reduced costs of ETL jobs and data lake storage structures.
+    - extensively refactored code and resolved numerous bugs.
+    - worked on data quality evaluation and validation.
+    - implemented data flow monitoring.
+    - conducted decomposition and delegation of large stories/tasks, and managed backlog population and refinement.
+    - actively participated in discussions on platform design and evolution.
+    - conducted a unified dimensional model (star schema) review, identified inconsistencies/discrepancies, and suggested improvements.
+    - authored technical documentation and development guides.
+    - mentored recently joined developers.
+    - implemented automated testing for Spark ETL jobs (both end-to-end and unit testing).
+    - implemented database schema evolution and versioning using Liquibase on Azure SQL Database and Azure Synapse Analytics.
+    - participated in the development of CI/CD processes and pipelines for various environments.
+    - led a team of three developers.
 
   technical_details:
     languages:
@@ -272,7 +272,7 @@
       - Delta Lake
       - Apache Hive
 
-    frameworks_libraries:
+    frameworks_libraries: []
 
     ci_cd_vcs_issue_trackers:
       - Azure DevOps
@@ -304,12 +304,12 @@
     - mentoring of and leading other developers
 
   participation_highlights_and_achievements:
-    - Developed new data ingestion flows for various sources, including FTP, REST APIs, etc., using ELT/ETL processes, and implemented diverse data transformations.
-    - Performed automated data cleansing and implemented data quality checks.
-    - Enforced the usage of Apache NiFi best practices across the team, including naming conventions, dataflow structures, and the use of context parameters and variables.
-    - Documented AWA job deployment processes, identified problems and bottlenecks, and suggested improvements.
-    - Refactored, maintained, supported, deployed, and monitored existing AWA & Apache NiFi jobs.
-    - Initiated and participated in discussions regarding platform architecture and CI/CD processes, and advocated for the introduction of best practices (code reviews, version control, etc.).
+    - developed new data ingestion flows for various sources, including FTP, REST APIs, etc., using ELT/ETL processes, and implemented diverse data transformations.
+    - performed automated data cleansing and implemented data quality checks.
+    - enforced the usage of Apache NiFi best practices across the team, including naming conventions, dataflow structures, and the use of context parameters and variables.
+    - documented AWA job deployment processes, identified problems and bottlenecks, and suggested improvements.
+    - refactored, maintained, supported, deployed, and monitored existing AWA & Apache NiFi jobs.
+    - initiated and participated in discussions regarding platform architecture and CI/CD processes, and advocated for the introduction of best practices (code reviews, version control, etc.).
 
   technical_details:
     languages:
@@ -349,7 +349,7 @@
     Automation of early diagnosis of cancer.
     The budgets have not been approved and the project position has been cancelled.
 
-  responsibilities:
+  responsibilities: []
 
   participation_highlights_and_achievements:
     - certifications preparation (self-development and education)
@@ -357,18 +357,18 @@
     - competitive programming (self-development and education)
 
   technical_details:
-    languages:
-    development_tools:
-    tools_technologies:
-    frameworks_libraries:
-    ci_cd_vcs_issue_trackers:
+    languages: []
+    development_tools: []
+    tools_technologies: []
+    frameworks_libraries: []
+    ci_cd_vcs_issue_trackers: []
 - title: Lead Software Engineer
   company: EPAM Systems
   company_web_site: "https://www.epam.com"
   location: Tbilisi, Georgia
   employment_type: Full-time
   start_date: May 2023
-  end_date: May 2024
+  end_date: April 2024
   duration: 1 year
   primary_role: Data Engineer
   secondary_roles:
@@ -382,7 +382,7 @@
 
   responsibilities:
     - developing of new and support of existing complex ETL/ELT pipelines and PoCs applications
-    - extending and improvement of platform capabilities
+    - extending and improvement of data platform capabilities
     - requirements gathering and clarification
     - pipelines and data quality monitoring and automation
     - performance optimization
@@ -394,17 +394,17 @@
     - infrastructure management (occasionally)
 
   participation_highlights_and_achievements:
-    - Implemented ETL pipelines with complex logic, formulas, and data structures.
-    - Automated data quality monitoring processes.
-    - Optimized the performance of ETL pipelines.
-    - Successfully refactored the project's codebase, achieving a substantial reduction in code volume (by a factor of 2 to 20), while enhancing maintainability and efficiency.
-    - Analyzed and discussed project requirements with stakeholders.
-    - Taught and enforced best practices in data engineering to the team.
-    - Mentored and consulted new team members on project specifics and technical challenges; conducted code reviews.
-    - Actively participated in meetings focused on architecture, data governance, and data modeling.
-    - Developed the "Product Alternatives" web application using the Flask, SQLAlchemy, and GraphQL frameworks (initially written with Streamlit + Pandas).
-    - "Implemented two proof of concept (POC) projects involving Large Language Models (LLMs): a virtual analyst chatbot and feedback analysis pipeline."
-    - Made adjustments in CI/CD pipelines.
+    - implemented ETL pipelines with complex logic, formulas, and data structures.
+    - automated data quality monitoring processes.
+    - optimized the performance of ETL pipelines.
+    - successfully refactored the project's codebase, achieving a substantial reduction in code volume (by a factor of 2 to 20), while enhancing maintainability and efficiency.
+    - analyzed and discussed project requirements with stakeholders.
+    - taught and enforced best practices in data engineering to the team.
+    - mentored and consulted new team members on project specifics and technical challenges; conducted code reviews.
+    - actively participated in meetings focused on architecture, data governance, and data modeling.
+    - developed the "Product Alternatives" web application using the Flask, SQLAlchemy, and GraphQL frameworks (initially written with Streamlit + Pandas).
+    - "implemented two proof of concept (POC) projects involving Large Language Models (LLMs): a virtual analyst chatbot and feedback analysis pipeline."
+    - made adjustments in CI/CD pipelines.
 
   technical_details:
     languages:
@@ -456,3 +456,62 @@
       - Liquibase
       - Atlassian Jira
       - Atlassian Confluence
+
+- title: Lead Software Engineer
+  company: EPAM Systems
+  company_web_site: "https://www.epam.com"
+  location: Tbilisi, Georgia
+  employment_type: Full-time
+  start_date: May 2024
+  end_date: December 2024
+  duration: 8 months
+  primary_role: Data Engineer
+  secondary_roles:
+    - Data Analyst
+    - Data Quality Engineer
+  domain: fashion & lifestyle e-commerce
+
+  description: |
+    Data and analytics platform (Data Lake, Lakehouse).
+
+  responsibilities:
+    - developing of new and support of existing complex ETL/ELT pipelines
+    - performance optimization
+    - extending and improvement of data platform capabilities
+    - requirements gathering and clarification with stakeholders
+    - ensuring data quality and automating DQ checks
+    - conducting code reviews
+    - teaching data engineering best practices (including CI/CD)
+
+  participation_highlights_and_achievements:
+    - achieved more than 20% cost reduction of the most complex and important production pipeline with 30k lines of code
+    - removed more than 60 UDFs and redundant shuffles
+    - migrated pipelines from DBR 11.3 LTS to 14.3 LTS
+    - identified multiple issues in code, logic and delivery processes and suggested solutions
+
+  technical_details:
+    languages:
+      - Scala
+      - SQL
+      - Python
+      - YAML
+
+    development_tools:
+      - IntelliJ Idea
+      - GitHub Copilot
+      - Microsoft Excel
+
+    tools_technologies:
+      - AWS Databricks
+      - AWS S3
+      - AWS Redshift
+      - Apache Spark
+      - Delta Lake
+
+    frameworks_libraries: []
+
+    ci_cd_vcs_issue_trackers:
+      - Sunrise
+      - Git
+      - Apache Maven
+      - Atlassian Jira
